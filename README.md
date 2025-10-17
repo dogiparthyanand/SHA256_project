@@ -33,12 +33,12 @@ This program is standalone and only need modern c++ compiler (g++ by preference)
 
 References:-
 
-1. Algorithm Definition (Required Source)
+1. Algorithm Definition.
 
 This covers the theoretical, structural, and pseudocode requirements for SHA-256.
  https://en.wikipedia.org/wiki/SHA-2
 
-2. Input Data Source (Required Text)
+2. Input Data Source
 
 This citation covers the massive text data (Book of Mark) used as input for your hash function.
 
