@@ -24,8 +24,8 @@ Result: The program hashes all of this text and returns a single 64 character he
 How to Compile and Run:
 This program is standalone and only need modern c++ compiler (g++ by preference).
 
-1. Save the file as SHA256_project.
+1. Save the file as main.cpp .
 2. Open the Terminal in the project directory.
 3. Compile the code:
- g++ -std=c++17 -Wall SHA256_project -o final_digest_calculator
+ g++ -std=c++17 -Wall main.cpp -o final_digest_calculator
 4. Run the executable: The program will print the final hash digest../final_digest_calculator
