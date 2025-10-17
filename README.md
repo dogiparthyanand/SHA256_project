@@ -8,9 +8,7 @@ The core purpose of this program is to calculate the unique, 256-bit hash digest
 
 Implementation Structure:
 
-C++ code is professional and stable, it is structurally the best method available in terms of precision to avoid technical risks:
-
-     Type Safety (Fixed width integers), Use fixed-size integer types (uint32_t, uint64_t) at. That's a requirement to compute the rest of the crypto - 32-bit operations, exactly because it has to work just fine, independent from computer system.
+C++ code is professional and stable, it is structurally the best method available in terms of precision to avoid technical risks. Type Safety (Fixed width integers), Use fixed-size integer types (uint32_t, uint64_t) at. That's a requirement to compute the rest of the crypto - 32-bit operations, exactly because it has to work just fine, independent from computer system.
 
 
 Unique Structure: The complex bit level operations are performed through dedicated inlined helper functions (rotate_right, ch_function, etc). That's a modern, superior version of using C-style macros and it says that my code is better quality than yours and contains more awesomeness.
