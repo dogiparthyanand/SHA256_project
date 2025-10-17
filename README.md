@@ -24,7 +24,7 @@ Result: The program hashes all of this text and returns a single 64 character he
 How to Compile and Run:
 This program is standalone and only need modern c++ compiler (g++ by preference).
 
-1. Save the file as sha256_capstone.cpp.
+1. Save the file as SHA256_project.
 2. Open the Terminal in the project directory.
 3. Compile the code:
  g++ -std=c++17 -Wall sha256_capstone.cpp -o final_digest_calculator
