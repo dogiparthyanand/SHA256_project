@@ -29,3 +29,17 @@ This program is standalone and only need modern c++ compiler (g++ by preference)
 3. Compile the code:
  g++ -std=c++17 -Wall main.cpp -o final_digest_calculator
 4. Run the executable: The program will print the final hash digest../final_digest_calculator
+
+
+References:-
+
+1. Algorithm Definition (Required Source)
+
+This covers the theoretical, structural, and pseudocode requirements for SHA-256.
+ https://en.wikipedia.org/wiki/SHA-2
+
+2. Input Data Source (Required Text)
+
+This citation covers the massive text data (Book of Mark) used as input for your hash function.
+
+National Council of Churches of Christ in America. (2025). Mark (Revised Standard Version). The Quod Project, University of Michigan Library.
