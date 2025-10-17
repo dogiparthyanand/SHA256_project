@@ -27,5 +27,5 @@ This program is standalone and only need modern c++ compiler (g++ by preference)
 1. Save the file as SHA256_project.
 2. Open the Terminal in the project directory.
 3. Compile the code:
- g++ -std=c++17 -Wall sha256_capstone.cpp -o final_digest_calculator
+ g++ -std=c++17 -Wall SHA256_project -o final_digest_calculator
 4. Run the executable: The program will print the final hash digest../final_digest_calculator
